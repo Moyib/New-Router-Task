@@ -11,33 +11,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-
-Vue.use(VueRouter)
-
-const Home = {
-  template: '<div>Home</div>'
-}
-const About = {
-  template: '<div>About</div>'
-}
-const Contact = {
-  template: '<div>Contact</div>'
-}
-const router = new VueRouter({
-  routes: [
-    { path: '/', component: Home },
-    { path: '/about', component: About },
-    { path: '/contact', component: Contact },
-  ]
-});
-
-new Vue({
-  router
-}).$mount('#app')
-
 export default {
   name: 'App'
 }
